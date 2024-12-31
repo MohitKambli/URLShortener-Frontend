@@ -7,7 +7,7 @@ const Home = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:4000/shorten', {
+      const response = await fetch('https://ok-sturgeon-mohitkambli-4695cdb0.koyeb.app/shorten', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
